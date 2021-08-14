@@ -1,0 +1,51 @@
+.right-wrapper {
+  flex: 3;
+  /* background: darkgreen; */
+  /* padding-right: 20px; */
+}
+.rightbar-container {
+  margin-top: 1.3rem;
+  width: 100%;
+  /* background: darkmagenta; */
+}
+.birthday span {
+  padding-left: 3px;
+}
+.ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
+
+  /* background: darksalmon; */
+}
+.ad img {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.online-friends-view {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.online-friends img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.friends-online {
+  position: relative;
+}
+.online-presence {
+  background: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  right: -3px;
+}
+.online-friend-name {
+  margin-left: 1rem;
+}
